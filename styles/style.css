@@ -120,7 +120,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 150px auto;
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.321);
 }
 
 .logo {
@@ -143,6 +143,12 @@ nav a {
   color: #8542e1;
   text-decoration: none;
   padding: 35px;
+}
+
+nav :hover {
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 #hero {
