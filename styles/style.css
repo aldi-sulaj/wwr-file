@@ -280,7 +280,7 @@ footer .social img {
 }
 
 .main_text {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .river-text {
@@ -313,6 +313,20 @@ footer .social img {
   margin-top: 350px;
   margin-right: 800px;
   margin-left: 50px;
+}
+
+.msg-river {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.join-river:hover {
+  background-color: #8542e1;
+  color: #000;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 900px) {
